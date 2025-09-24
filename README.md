@@ -1,6 +1,6 @@
 # Extrovert vs Introvert Personality Classification
 
-## 📌 Project Overview
+## Project Overview
 
 This project uses the [Extrovert vs Introvert Behavior Dataset](https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data) from Kaggle to classify individuals as **Introvert** or **Extrovert** based on their behavioral features.  
 We implemented and compared two machine learning models:
@@ -12,7 +12,7 @@ Logistic Regression performed slightly better on this dataset.
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 
 - **Rows:** 2900
 - **Columns:** 8
@@ -30,7 +30,7 @@ Categorical features were encoded as 0/1. Target was encoded as Introvert=0, Ext
 
 ---
 
-## ⚙️ Steps Followed
+## Steps Followed
 
 1. **Data Cleaning**
 
@@ -57,7 +57,7 @@ Categorical features were encoded as 0/1. Target was encoded as Introvert=0, Ext
 
 ---
 
-## 📈 Results
+## Results
 
 ### Logistic Regression (Test Set)
 
@@ -73,11 +73,11 @@ Categorical features were encoded as 0/1. Target was encoded as Introvert=0, Ext
 - Recall: **93.19%**
 - F1-score: **92.95%**
 
-👉 Logistic Regression outperformed Random Forest.
+Logistic Regression outperformed Random Forest.
 
 ---
 
-## 🖼️ Visual Results
+## Visual Results
 
 ### Confusion Matrices
 
@@ -96,7 +96,7 @@ _(Make sure to save your images in a folder called `images/` inside your project
 
 ---
 
-## 📂 How to Run
+## How to Run
 
 1. Install required packages:
 
@@ -110,7 +110,7 @@ _(Make sure to save your images in a folder called `images/` inside your project
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 - Logistic Regression gave slightly better performance than Random Forest.
 - The dataset is relatively clean and balanced, making it suitable for binary classification tasks.
